@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+host: https://www.onechronos.com
+notes: >-
+  No /.well-known/ discovery surface is published. OneChronos is a FIX-based
+  institutional trading venue with no public REST/OAuth surface; absence of these
+  documents is expected and recorded as valid data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/onechronos
+notes: >-
+  OneChronos ships no FIX/API client SDK for its trading venue; connectivity is
+  private FIX 4.2 over TCP/IP. It does publish open-source developer libraries
+  from its verified GitHub org (github.com/onechronos), notably symbology
+  normalization for listed US equities, which are recorded here as official
+  first-party packages. These are developer tools, not trading-API client SDKs,
+  so no `SDKs` pointer is emitted.
+packages:
+- language: rust
+  registry: crates.io
+  name: symbologyl2
+  url: https://crates.io/crates/symbologyl2
+  install: cargo add symbologyl2
+  official: true
+  description: Symbology normalization and translation for listed US equities.
+- language: python
+  registry: pypi
+  name: symbologyl2
+  url: https://pypi.org/project/symbologyl2/
+  install: pip install symbologyl2
+  official: true
+  description: Python wrapper for the symbologyl2 US-equities symbology library.

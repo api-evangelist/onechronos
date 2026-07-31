@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.onechronos.com/documentation/fix/fix-42/
+notes: >-
+  OneChronos exposes no REST/OpenAPI surface; connectivity is a FIX-protocol
+  order-entry venue. Conformance is asserted against the standards its published
+  documentation describes.
+standards:
+- id: fix-4.2
+  conforms: true
+  evidence: >-
+    Docs state the venue implements "a modern variant of the FIX (Financial
+    Information eXchange) Protocol based on the FIX 4.2 protocol specification"
+    with three documented exceptions (no PossResend tag 97, custom Expressive
+    Bidding message types, optional TradeCancelCorrect=UCC trade breaks).
+  source: https://www.onechronos.com/documentation/fix/fix-42/
+- id: fix-session-tcp
+  conforms: true
+  evidence: >-
+    All FIX connections are made over TCP/IP with standard FIX logon/logout
+    session procedures; SenderCompID/TargetCompID identify subscribers.
+  source: https://www.onechronos.com/documentation/fix/fix-42/
+- id: oauth2
+  conforms: false
+  evidence: No OAuth surface; FIX session authentication via assigned CompIDs.
+- id: openid-connect
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No HTTP/REST error surface (FIX Reject/BusinessMessageReject instead).
+- id: rest-openapi
+  conforms: false
+  evidence: No public REST API or OpenAPI description; FIX 4.2 order entry only.

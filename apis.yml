@@ -1,22 +1,119 @@
 aid: onechronos
-name: Onechronos
-description: Onechronos is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: OneChronos
+description: >-
+  OneChronos operates AI-powered "Smart Market" alternative trading systems that
+  match institutional orders using Nobel Prize-winning combinatorial auction
+  techniques and mathematical optimization rather than traditional price-time
+  priority matching. Operated by OneChronos Markets LLC, a broker-dealer
+  subsidiary of OCX Group Inc., the venue runs point-in-time periodic auctions
+  roughly ten times per second across US equities (a dark ATS launched in 2022),
+  spot foreign exchange, and UK/EU equities multilateral trading facilities.
+  Subscribers connect and submit orders electronically over a modern variant of
+  the FIX 4.2 protocol, with "expressive bidding" that lets traders encode custom
+  constraints, spreads, pairs, portfolio and hedging strategies into each auction.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.onechronos.com/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Financial Services
+- Capital Markets
+- Trading
+- Equities
+- Alternative Trading System
+- FIX Protocol
+- Foreign Exchange
+- Institutional Investing
+- Market Infrastructure
+apis:
+- name: OneChronos US Equities ATS (FIX 4.2)
+  description: >-
+    Order entry and execution for the OneChronos US equities dark ATS over a
+    modern variant of the FIX 4.2 protocol. Standard and Target orders, and
+    Expressive Bids, are submitted electronically via FIX over TCP/IP; the ATS
+    hosts periodic auctions approximately ten times per second.
+  humanURL: https://www.onechronos.com/documentation/fix/fix-42/us-equities/
+  properties:
+  - type: Documentation
+    url: https://www.onechronos.com/documentation/user-manual/us-equities/
+  - type: APIReference
+    url: https://www.onechronos.com/documentation/fix/fix-42/us-equities/
+- name: OneChronos FX Smart Market (FIX 4.2)
+  description: >-
+    Order entry for the OneChronos spot foreign exchange Smart Market over the
+    FIX 4.2 protocol variant, applying the same combinatorial-auction matching
+    to global FX.
+  humanURL: https://www.onechronos.com/documentation/fix/fix-42/fx/
+  properties:
+  - type: Documentation
+    url: https://www.onechronos.com/documentation/user-manual/fx/
+  - type: APIReference
+    url: https://www.onechronos.com/documentation/fix/fix-42/fx/
+- name: OneChronos European Equities MTF (FIX 4.2)
+  description: >-
+    Order entry for the OneChronos UK and EU equities multilateral trading
+    facilities over the FIX 4.2 protocol variant.
+  humanURL: https://www.onechronos.com/documentation/fix/fix-42/european-equities/
+  properties:
+  - type: APIReference
+    url: https://www.onechronos.com/documentation/fix/fix-42/european-equities/
+common:
+- type: Website
+  url: https://www.onechronos.com/
+- type: DeveloperPortal
+  url: https://www.onechronos.com/documentation/fix/primer/
+- type: Documentation
+  url: https://www.onechronos.com/documentation/user-manual/us-equities/
+- type: APIReference
+  url: https://www.onechronos.com/documentation/fix/fix-42/
+- type: GettingStarted
+  url: https://www.onechronos.com/documentation/fix/primer/
+- type: Support
+  url: https://www.onechronos.com/contact/
+- type: Blog
+  url: https://www.onechronos.com/insights/
+- type: GitHubOrganization
+  url: https://github.com/onechronos
+- type: Pricing
+  url: https://www.onechronos.com/products/us-equities/fees/
+- type: PrivacyPolicy
+  url: https://www.onechronos.com/legal/privacy-policy/
+- type: Packages
+  url: packages/onechronos-packages.yml
+- type: WellKnown
+  url: well-known/onechronos-well-known.yml
+- type: Conformance
+  url: conformance/onechronos-conformance.yml
+- type: DomainSecurity
+  url: security/onechronos-domain-security.yml
+- type: LLMsTxt
+  url: llms/onechronos-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,37 @@
+# OneChronos
+
+> OneChronos operates AI-powered "Smart Market" alternative trading systems that match institutional orders using Nobel Prize-winning combinatorial auction techniques and mathematical optimization instead of traditional price-time priority. It runs US equities (a dark ATS launched in 2022), spot FX, and UK/EU equities venues, hosting periodic auctions roughly ten times per second. Subscribers connect and submit orders electronically over a modern variant of the FIX 4.2 protocol, with "expressive bidding" for custom constraints, spreads, pairs, portfolio, and hedging strategies. There is no public REST API — connectivity is FIX-based for institutional subscribers.
+
+## Products
+- [US Equities ATS](https://www.onechronos.com/products/us-equities/): Dark US equities alternative trading system.
+- [FX](https://www.onechronos.com/products/fx/): Spot foreign exchange Smart Market.
+- [European Equities](https://www.onechronos.com/products/european-equities/): UK and EU equities multilateral trading facilities.
+
+## Connectivity & Specs
+- [FIX 4.2 Specification](https://www.onechronos.com/documentation/fix/fix-42/): Order-entry protocol (modern FIX 4.2 variant over TCP/IP).
+- [FIX 4.2 — US Equities](https://www.onechronos.com/documentation/fix/fix-42/us-equities/)
+- [FIX 4.2 — FX](https://www.onechronos.com/documentation/fix/fix-42/fx/)
+- [FIX 4.2 — European Equities](https://www.onechronos.com/documentation/fix/fix-42/european-equities/)
+- [FIX Primer](https://www.onechronos.com/documentation/fix/primer/): Getting started with FIX connectivity.
+
+## Documentation
+- [US Equities User Manual](https://www.onechronos.com/documentation/user-manual/us-equities/)
+- [FX User Manual](https://www.onechronos.com/documentation/user-manual/fx/)
+- [Expressive Bidding — Start Here](https://www.onechronos.com/documentation/expressive/start-here/)
+- [Expressive Bidding Guide](https://www.onechronos.com/documentation/expressive/bidding-guide/)
+- [Expressive Bidding Reference](https://www.onechronos.com/documentation/expressive/reference/)
+- [Market Structure — US Equities](https://www.onechronos.com/documentation/market-structure/us-equities/)
+- [Symbology — US Equities](https://www.onechronos.com/documentation/symbology/us-equities/)
+
+## Developer Libraries (open source)
+- [symbologyl2 (crates.io)](https://crates.io/crates/symbologyl2): US-equities symbology normalization (Rust).
+- [symbologyl2 (PyPI)](https://pypi.org/project/symbologyl2/): Python wrapper for symbology normalization.
+- [GitHub org](https://github.com/onechronos): Open-source infrastructure and protocol tooling.
+
+## Company
+- [About](https://www.onechronos.com/about/)
+- [Insights](https://www.onechronos.com/insights/)
+- [Careers](https://www.onechronos.com/careers/)
+- [Fees / Pricing](https://www.onechronos.com/products/us-equities/fees/)
+- [Contact](https://www.onechronos.com/contact/)
+- [Privacy Policy](https://www.onechronos.com/legal/privacy-policy/)
