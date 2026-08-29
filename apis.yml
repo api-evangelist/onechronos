@@ -11,6 +11,17 @@ description: >-
   Subscribers connect and submit orders electronically over a modern variant of
   the FIX 4.2 protocol, with "expressive bidding" that lets traders encode custom
   constraints, spreads, pairs, portfolio and hedging strategies into each auction.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
