@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Trading
 - Stocks
@@ -66,6 +66,7 @@ tags_raw:
 - Foreign Exchange
 - Institutional Investing
 - Market Infrastructure
+- Financial-Services
 apis:
 - name: OneChronos US Equities ATS (FIX 4.2)
   description: >-
