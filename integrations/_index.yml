@@ -61,3 +61,34 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: onechronos-crates-io
+  label: crates.io
+  partner: crates-io
+  partner_name: crates.io
+  category: official SDK (Rust)
+  type: register
+  channel: package-registry
+  evidence: https://crates.io/crates/symbologyl2
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: crates.io (public registry JSON)
+    spec_file: null
+    language: Rust
+    packages:
+    - name: symbologyl2
+      version: 0.1.2
+      released: '2025-05-14'
+      released_field: updated_at
+      lapsed: false
+      page: https://crates.io/crates/symbologyl2
+      repo_leg: github-org:onechronos
+      publisher_leg: org:onechronos
+      matched_by: github-org
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
