@@ -1,4 +1,4 @@
-# Onechronos
+# OneChronos
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Onechronos is a company surfaced as a portfolio company of dcvc and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+OneChronos operates AI-powered "Smart Market" alternative trading systems that match institutional orders using Nobel Prize-winning combinatorial auction techniques and mathematical optimization rather than traditional price-time priority matching. Operated by OneChronos Markets LLC, a broker-dealer subsidiary of OCX Group Inc., the venue runs point-in-time periodic auctions roughly ten times per second across US equities (a dark ATS launched in 2022), spot foreign exchange, and UK/EU equities multilateral trading facilities. Subscribers connect and submit orders electronically over a modern variant of the FIX 4.2 protocol, with "expressive bidding" that lets traders encode custom constraints, spreads, pairs, portfolio and hedging strategies into each auction.
 
-Backed by: dcvc
+**Areas:** Company · Financial Services · Capital Markets · Trading · Stocks · Alternative Trading System · FIX Protocol · Foreign Exchange · Institutional Investing · Market Infrastructure
+
+## OneChronos on APIs.io
+
+Everything profiled for OneChronos is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/onechronos/](https://apis.io/providers/onechronos/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [OneChronos US Equities ATS (FIX 4.2)](https://apis.io/apis/onechronos/onechronos-us-equities-ats-fix-42/) — Order entry and execution for the OneChronos US equities dark ATS over a modern variant of the FIX 4.2 protocol. Standard and Target orders, and Expressive…
+- [OneChronos FX Smart Market (FIX 4.2)](https://apis.io/apis/onechronos/onechronos-fx-smart-market-fix-42/) — Order entry for the OneChronos spot foreign exchange Smart Market over the FIX 4.2 protocol variant, applying the same combinatorial-auction matching to…
+- [OneChronos European Equities MTF (FIX 4.2)](https://apis.io/apis/onechronos/onechronos-european-equities-mtf-fix-42/) — Order entry for the OneChronos UK and EU equities multilateral trading facilities over the FIX 4.2 protocol variant.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Onechronos Domain Security](https://apis.io/security/onechronos/onechronos-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.onechronos.com/)
+- [Documentation](https://www.onechronos.com/documentation/user-manual/us-equities/)
+- [Getting started](https://www.onechronos.com/documentation/fix/primer/)
+- [API reference](https://www.onechronos.com/documentation/fix/fix-42/)
+- [Pricing](https://www.onechronos.com/products/us-equities/fees/)
+- [Support](https://www.onechronos.com/contact/)
+- [Blog](https://www.onechronos.com/insights/)
+- [Privacy policy](https://www.onechronos.com/legal/privacy-policy/)
+- [GitHub](https://github.com/onechronos)
+
+## API Evangelist rating
+
+**Kin Score 21.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.9** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/onechronos/](https://apis.io/providers/onechronos/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OneChronos: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/onechronos/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
